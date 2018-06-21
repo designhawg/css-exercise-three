@@ -1,0 +1,67 @@
+body {
+  background-color: #333;
+  font: Tahoma;
+  font-family: sans-serif;
+  font-size: 18px; /* 16 px */
+  font-weight: bold;
+}
+
+.container {
+  background-color: black;
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+.arrow {
+  font-size: 10px;
+  text-align: right;
+  position: relative;
+  top: -20px; right: 5px;
+
+}
+
+.arrow-left {
+  font-size: 10px;
+}
+
+.border-box{
+  border: solid;
+}
+
+.content h3 {
+  font: Tahoma;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.content {
+  box-sizing: border-box;
+  position: relative;
+  top: 10px; right: -20px;
+  text-align: left;
+}
+
+.location {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.location:hover {
+  background-color: gray;
+
+}
+
+.restaurant-list {
+  margin-right: 100px;
+  margin-left: 0px;
+  padding-top: 50px;
+  width: 100%;
+}
