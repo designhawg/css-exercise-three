@@ -1,3 +1,5 @@
+
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -33,6 +35,7 @@ h3{
   background-color: #dedede;
 }
 
+
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
@@ -51,6 +54,10 @@ nav {
    float: left;
    padding:5px;
    width: 100%;
+ }
+
+ .location:hover{
+   background-color: #CCCCCC;
  }
 
 .arrow{
