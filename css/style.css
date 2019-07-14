@@ -13,31 +13,52 @@ body {
   width: 420px;
 }
 
+.content {
+  display: inline-block;
+  width: 90%;
+/*   border: 1px solid blue; */
+}
+
+.arrow {
+  display: inline-block;
+  float: right;
+  padding: auto;
+  margin: auto;
+  top: 50%;
+  transform: translateY(50%);
+/*   border: 1px solid red; */
+}
+
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   position: fixed;
   width: 420px;
-  background-color: #000;
+  background-color: black;
+}
+
+.location {
+  padding: 20px;
+  border-top: 1px solid black;
+  transition: .3s;
+}
+
+.location:hover {
+  background-color: #ccc;
 }
 
 .restaurant-list {
-  box-sizing: border-box;
-  float: left;
   padding-top: 50px;
-  width: 100%;
-  background-color: #FFF;
+  background-color: white;
 }
 
 .content h1 {
+  padding: 3px 0px;
   font-size: 1.8em;
   font-weight: 900;
 }
 
 .content h3 {
+  padding: 3px 0px;
   font-size: 1.4em;
-}
-
-.location:hover {
-  background-color: #CCC
 }
