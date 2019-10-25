@@ -48,10 +48,12 @@ nav {
   padding-top: 10px;
 }
 
+.location:hover {
+  background-color: #A9A9A9;
+}
+
 .location:last-child {
   border: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 
 .arrow {
