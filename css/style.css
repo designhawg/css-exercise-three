@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   background-color: black;
-  width: 321px;
+  width: 16.7%;
   margin-left: 50px;
 }
 
@@ -30,9 +31,7 @@ nav {
 
 .restaurant-list {
   padding-top: 45px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px 50px 0 50px;
   background-color: white;
   height: 500px;
   width: 76.5%;
@@ -51,7 +50,7 @@ nav {
 
 .arrow {
   display: inline-block;
-  left: 1000px;
+  right: 90%;
   margin-top: 0;
   float: right;
   font-size: 0.8em;
