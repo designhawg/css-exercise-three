@@ -18,14 +18,15 @@ body {
 
 nav {
   width: 420px;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 15px 0;
   position: fixed;
   background-color: black;
-  width: 19.5%;
+  width: 19.4%;
+
 }
 
 .arrow-left {
-  padding-left: 10px;
+  padding-left: 70px;
 }
 
 .restaurant-list {
