@@ -17,16 +17,19 @@ body {
 }
 
 nav {
-  width: 420px;
-  padding: 10px 0 15px 0;
+  /* width: 420px; */
+  padding: 10px 0 16px 0;
   position: fixed;
   background-color: black;
-  width: 19.4%;
+  width: 22.4%;
+  z-index: 1;
+  margin-left: 49px;
 
 }
 
 .arrow-left {
-  padding-left: 70px;
+  padding-left: 16px;
+  padding-top: 5px;
 }
 
 .restaurant-list {
