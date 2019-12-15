@@ -1,5 +1,5 @@
 
-* {
+* , *::before, *::after{
   box-sizing: border-box;
 }
 
@@ -7,22 +7,21 @@ body {
   background-color: #3331;
   font-family: sans-serif;
   font-size: 10px;
-  margin: 100px;
 }
 
 .container {
-  position: relative;
   width: 420px;
-  height: 546px;;
+  margin: 0 auto;
+  /* height: 546px; */
   background-color: #3c3a3c;
 }
 
 nav {
+  width: 420px;
   padding: 10px 0 15px 15px;
   position: fixed;
   background-color: black;
-  width: 16.7%;
-  margin-left: 50px;
+  width: 19.5%;
 }
 
 .arrow-left {
@@ -33,7 +32,7 @@ nav {
   padding-top: 45px;
   margin: 50px 50px 0 50px;
   background-color: white;
-  height: 500px;
+  /* height: 500px; */
   width: 76.5%;
   overflow: scroll;
 }
