@@ -20,11 +20,6 @@ nav {
   padding: 10px 0 16px 0;
   position: fixed;
   background-color: black;
-  /* width: 22.4%; */
-  width: 322px;
-  z-index: 1;
-  margin-left: 49px;
-
 }
 
 .arrow-left {
@@ -34,15 +29,17 @@ nav {
 
 .restaurant-list {
   padding-top: 45px;
-  margin: 50px 50px 0 50px;
   background-color: white;
-  width: 76.5%;
   overflow: scroll;
+
 }
 
 .location {
   padding: 20px;
   border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .content {
@@ -61,7 +58,6 @@ nav {
 h1 {
   font-weight: bold;
   font-size: 1.5em;
-
 }
 
 h3 {
