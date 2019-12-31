@@ -24,13 +24,13 @@ nav {
 
 .arrow-left {
   padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 .restaurant-list {
+  padding-top: 45px;
   background-color: white;
-  overflow: scroll;
+  /* overflow: scroll; */
 
 }
 
