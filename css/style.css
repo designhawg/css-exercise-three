@@ -4,8 +4,12 @@ body {
   font-size: 10px;
   display: block; /* added */
   float: left; /* added */
-  a.hover {color: #6B6C71} /* added */
+}
 
+.location:hover { /** NEW Created separate grouping for a:hover outside of the body **/
+  background-color: #6B6C71;
+}
+  
 * { /* added */
   box-sizing: border-box;
 }
