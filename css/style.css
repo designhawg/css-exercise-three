@@ -2,11 +2,33 @@ body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
+  display: block; /* added */
+  float: left; /* added */
+}
+
+.location:hover { /** NEW Created separate grouping for a:hover outside of the body **/
+  background-color: #6B6C71;
+}
+  
+* { /* added */
+  box-sizing: border-box;
+}
+
+.header h1 { /* added */
+  font-size: 32px
+  color: #ffffff
+}
+
+.header h2 { /* added */
+  font-size: 20px;
+  color: #ffffff
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
+  display: inline-block;
+  float: left;
 }
 
 nav {
@@ -18,4 +40,6 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+  width: 100%; /* added */
 }
+
